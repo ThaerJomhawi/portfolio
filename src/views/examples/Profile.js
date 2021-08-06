@@ -71,7 +71,7 @@ class Profile extends React.Component {
                   <Row className="justify-content-center">
                     <Col className="order-lg-2" lg="3">
                       <div className="card-profile-image">
-                        <a href="#pablo" onClick={e => e.preventDefault()}>
+                        <a href="#Thaer" onClick={e => e.preventDefault()}>
                           <img
                             alt="..."
                             className="rounded-circle"
@@ -84,26 +84,7 @@ class Profile extends React.Component {
                       className="order-lg-3 text-lg-right align-self-lg-center"
                       lg="4"
                     >
-                      <div className="card-profile-actions py-4 mt-lg-0">
-                        <Button
-                          className="mr-4"
-                          color="info"
-                          href="#pablo"
-                          onClick={e => e.preventDefault()}
-                          size="sm"
-                        >
-                          Connect
-                        </Button>
-                        <Button
-                          className="float-right"
-                          color="default"
-                          href="#pablo"
-                          onClick={e => e.preventDefault()}
-                          size="sm"
-                        >
-                          Message
-                        </Button>
-                      </div>
+                    
                     </Col>
                     <Col className="order-lg-1" lg="4">
                       <div className="card-profile-stats d-flex justify-content-center">
@@ -143,9 +124,7 @@ class Profile extends React.Component {
                         <p>
                           A  Software Developer, builds websites and web Applications with JavaScript ,HTML ,CSS
                         </p>
-                        <a href="#Thaer" onClick={e => e.preventDefault()}>
-                          Show more
-                        </a>
+                        
                       </Col>
                     </Row>
                   </div>
@@ -154,7 +133,7 @@ class Profile extends React.Component {
             </Container>
           </section>
         </main>
-        <SimpleFooter />
+        
       </>
     );
   }
